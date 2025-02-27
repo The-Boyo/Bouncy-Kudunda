@@ -1,3 +1,11 @@
+import "./globals.css";
+
 export default function RootPage() {
-	return <h1>Bouncy begins...</h1>;
+	return (
+		<main className="main">
+			<div className="computer"></div>
+			<div className="ball"></div>
+			<div className="player"></div>
+		</main>
+	);
 }
